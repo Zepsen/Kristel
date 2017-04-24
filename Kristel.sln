@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kristel.WEB", "Kristel\Kristel.WEB.csproj", "{E0DAF9E1-E203-45BD-A7EB-B6E09C4F2108}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kristel.Tests", "Kristel.Tests\Kristel.Tests.csproj", "{88D3BE6E-34A8-4B07-B5FE-8E8C9AC64F86}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kristel.TEST", "Kristel.Tests\Kristel.TEST.csproj", "{88D3BE6E-34A8-4B07-B5FE-8E8C9AC64F86}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kristel.DAL", "Kristel.DAL\Kristel.DAL.csproj", "{B067D214-A5DB-4C76-BA85-C8302CBED031}"
 EndProject

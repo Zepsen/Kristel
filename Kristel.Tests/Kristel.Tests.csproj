@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Kristel\Kristel.csproj" />
+    <ProjectReference Include="..\Kristel\Kristel.WEB.csproj" />
   </ItemGroup>
 
   <ItemGroup>

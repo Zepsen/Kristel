@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Kristel.Controllers
+namespace Kristel.WEB.Controllers
 {
     public class HomeController : Controller
     {

@@ -1,7 +1,6 @@
-using System;
 using Xunit;
 
-namespace Kristel.Tests
+namespace Kristel.WEB.Tests
 {
     public class UnitTest1
     {

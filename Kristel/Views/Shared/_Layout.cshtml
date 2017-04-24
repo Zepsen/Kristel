@@ -6,10 +6,10 @@
 
     @* Links *@
     <environment names="Development">
-        <link href="~/css/site.css" rel="stylesheet" />
+        <link href="~/css/Core.css" rel="stylesheet" />
     </environment>
     <environment names="Staging,Production">
-        <link href="~/css/site.min.css" rel="stylesheet" />
+        <link href="~/css/Core.min.css" rel="stylesheet" />
     </environment>
     @Html.Raw(JavaScriptSnippet.FullScript)
 </head>
@@ -20,10 +20,10 @@
 
     @* Scripts *@
     <environment names="Development">
-        <script src="~/js/site.js" asp-append-version="true"></script>
+        <script src="~/js/Core.js" asp-append-version="true"></script>
     </environment>
     <environment names="Staging,Production">
-        <script src="~/js/site.min.js" asp-append-version="true"></script>
+        <script src="~/js/Core.min.js" asp-append-version="true"></script>
     </environment>
     @RenderSection("Scripts", required: false)
 </body>

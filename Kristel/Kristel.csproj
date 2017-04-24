@@ -5,8 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\css\Core.css" />
+    <Content Include="wwwroot\css\Core.less" />
     <Content Include="wwwroot\css\Site.css" />
-    <Content Include="wwwroot\css\Site.min.css" />
     <Content Include="wwwroot\js\core.js" />
     <Content Include="wwwroot\js\Core.min.js" />
   </ItemGroup>

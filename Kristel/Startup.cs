@@ -4,6 +4,10 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
+using Kristel.BLL.Services;
+using Kristel.BLL.Interfaces;
+using Kristel.DAL.Repositories;
+using Kristel.DAL.Interfaces;
 
 namespace Kristel.WEB
 {
@@ -26,6 +30,11 @@ namespace Kristel.WEB
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            var connection = Configuration.GetConnectionString("DefaultConnection");
+            var uow = new UnitOfWork(connection);
+                        
+            services.AddSingleton<IUnitOfWork, UnitOfWork>(i => uow);
+            services.AddTransient<IProductServices, ProductServices>();
             services.AddMvc();
         }
 

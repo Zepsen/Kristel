@@ -1,0 +1,10 @@
+﻿
+@model List<Kristel.BLL.DTO.ProductDTO>
+@foreach(var prod in Model)
+{
+    <ul>
+        <li>@prod.Id</li>  
+        <li>@prod.Title</li>
+        <li>@prod.Description</li>  
+    </ul>
+}
